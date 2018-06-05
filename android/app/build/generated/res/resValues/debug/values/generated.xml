@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Values from default config. -->
+    <string name="API_ENDPOINT">"http://api.odoo.d4b337e5.svc.dockerapp.io:1976"</string>
+    <string name="VENDOR_EMAIL">"jessica@bonacio.com"</string>
+    <string name="VENDOR_KIOSK_ID">"8"</string>
+    <string name="VENDOR_PASSWORD">"bonacio_vending"</string>
+
+</resources>

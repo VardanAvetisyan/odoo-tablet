@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\okio-1.6.0-71e5cd05ee87ce80008ad79e91b28c2037bcf3a5.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zxing\1.8.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c87c4f493c82d2de01bddf6b1084c92dd670b053">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-7ca012068ef845e8ec9454a793a1a7fd2c449de3.jar" />
+    </item>
+    <item
+        jar="C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.4.1\55605135bd7b836612e0bba7037c9669f6ccf89f\jackson-annotations-2.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="55605135bd7b836612e0bba7037c9669f6ccf89f">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.4.1-538c94aa1b597b44f88f40f2a200d0258525e3ab.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\tablet\realm\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="510a640fd33a5cebb0f9f48918d8ebb16b5dcef2">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-ca393743b2d05da7f2a182a3da1764c201a82a20.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\tablet\@remobile@react-native-splashscreen\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="deeaa21219ec0fef82b1f76b8f679322d1349827">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-c3c4bc68ed8a4e88492e02aee4681c9acc4921ea.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\tablet\react-native-code-push\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a8a6581feebc8dce3b74e7c4423ec043f32d7974">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-43a1d063abeb1732688b310d742cfabd8c589739.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.23.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="02f58fb4e333f5f258eedc4d1bc66032059aaf70">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-84cdfe758a57c76ad2d17cd18de27d98e72e4125.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\tablet\react-native-android-statusbar\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b21fdf7c659b8dfabd6446cc840ad7d9ad34bd91">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-8e1fe24b2950f6e298c5af4d64111fa9aa5e1912.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4af24c040b21980e0a80a505816c648e36705bd9">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-16b2320df847433c18e911867be3f163bd73ef0d.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\tablet\react-native-lock\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a420b7edbb971e665d93041146d3355f5b3ff894">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-0187423b9abb4936ec968921aaf116513cf2a15f.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-a561a03beaef599b38b4c7c39a14c8cfe7b5305f.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-ccb9e7b2ba7a2f58f1f30c8e986c3fb6f022c5e5.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\tablet\react-native-config\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="bfe6066363e1b99f02380e06faaaf379cd114039">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-3ea37b50b0518199ab935a7337ccb7cbab21fb89.jar" />
+    </item>
+    <item
+        jar="C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.4.1\f07c773f7b3a03c3801d405cadbdc93f7548e321\jackson-databind-2.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f07c773f7b3a03c3801d405cadbdc93f7548e321">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\jackson-databind-2.4.1-cf79c9e682c89c3210ae11e3c8c0c607756c5555.jar" />
+    </item>
+    <item
+        jar="C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\library-2.4.0-85b12d8fe49f0fc1a9826020e71af229cb796cc3.jar" />
+    </item>
+    <item
+        jar="C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-ws\2.5.0\e9753b7dcae5deca92e871c5c759067070b07bc\okhttp-ws-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0e9753b7dcae5deca92e871c5c759067070b07bc">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\okhttp-ws-2.5.0-8504c69ea04de2c3287281361d77658dd48b5947.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-542e77af78f45d7034e641750b7f8f634d84954c.jar" />
+    </item>
+    <item
+        jar="C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.facebook.stetho\stetho-okhttp\1.2.0\6c5c9380e245c4ff5be2b2a49dcbb0200c39798e\stetho-okhttp-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6c5c9380e245c4ff5be2b2a49dcbb0200c39798e">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\stetho-okhttp-1.2.0-7ef323681a778a3c896badd30a4d351ef7011357.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\com.auth0.android\lock\1.14.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4f1d4dcfb456ba9221ff41e33b32336f2115d299">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-35713caf9256e04456854a7b172b842130b84cf3.jar" />
+    </item>
+    <item
+        jar="C:\Users\USER\.gradle\caches\modules-2\files-2.1\commons-cli\commons-cli\1.2\2bf96b7aa8b611c177d329452af1dc933e14501c\commons-cli-1.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\commons-cli-1.2-267e313b011e686fd4e4bc05d56f951a47e575e6.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\com.auth0.android\core\1.14.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="34feaa196fa4aa43a647a91ab2a75ad51e8ee513">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-e4dda0c867d8331f9ee7a7009da9421f3dcf2253.jar" />
+    </item>
+    <item
+        jar="C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.nanohttpd\nanohttpd\2.2.0\73a02117620b6cc7683a1ed6ae24c2f36e2a715\nanohttpd-2.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="073a02117620b6cc7683a1ed6ae24c2f36e2a715">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\nanohttpd-2.2.0-49b6509b7c7ac422c4b2401935e2e3915a72e4ce.jar" />
+    </item>
+    <item
+        jar="C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.squareup\otto\1.3.5\7941cd2c2c8ec006800d75c35f8a9dacf892ab93\otto-1.3.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7941cd2c2c8ec006800d75c35f8a9dacf892ab93">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\otto-1.3.5-d3ea1b6536dc3c6a66d3502253314e32bba0d6bd.jar" />
+    </item>
+    <item
+        jar="C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-6564c6934da07ca03ab1e62689d10e4fbee766fe.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\com.auth0.android\identity-core\1.14.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2a913e6bf0952e472eaea60a37865067783f5bec">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-4de419a23f6f210a560433c721dfbdc640632bef.jar" />
+    </item>
+    <item
+        jar="C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.0\e019d15a13a9786f881141d2df6654b8510bce8b\core-3.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e019d15a13a9786f881141d2df6654b8510bce8b">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\core-3.2.0-2d0ed3b1af01123fdb9c6e80af8e9bd61e6337e5.jar" />
+    </item>
+    <item
+        jar="C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0-712e3f486e47235cb2d0fe32ded975d03874967c.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\com.hannesdorfmann.smoothprogressbar\library\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b0c4e77822421eb57e484df72ebb208b62df93e8">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-3fdd4b4c05799a762b86485b79287c53f4d3ecd0.jar" />
+    </item>
+    <item
+        jar="C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.facebook.stetho\stetho\1.2.0\1d6cdb8ce8185b8b23213fad48a83987fb6d2d67\stetho-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1d6cdb8ce8185b8b23213fad48a83987fb6d2d67">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\stetho-1.2.0-5beb32c8921602353332dba40b34fb815348e07a.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-d769ffe74cc85e8b43584fa6b7ae31b297591a64.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\com.auth0.android\lock-passwordless\1.14.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9f005ed0d2b6d11f02ea3e4ee5445c7f420ca7da">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-e12bea52e9f49a8b3783ae718bf6ed578c956746.jar" />
+    </item>
+    <item
+        jar="C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\okhttp-2.5.0-15535477b16005cf7299359f781a9b12c599976f.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="845a5b3a624946b2068963ba656c117fc453701c">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-743177496af21da1fc910d8f84fdd5fb04c9e183.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\tablet\ReactNativeBarcodescanner\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a51fc68d739a720f726d171639320430e8148487">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-3bc40311d6e0e71eb4c334de53f1817b884fe403.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-6260e45a5334d1573ca628d8d2a9b25c3dc760d2.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9178570a3a28c95fabd3bc746cd68efe99ad2b47">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-8e8478e5c8943a3511eb16306785ea1e603935b2.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.8.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="96c83d4de6289a3f674165f896ac992564a7138d">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-f706a9e54258d0a705424c0904b800abc398c0d0.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp\0.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0d5d69b03cb7d68b81543f6483ed04ccb0e2235b">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-5e2e403af10931d4f7b71fe654b0c05c3e25b1aa.jar" />
+    </item>
+    <item
+        jar="C:\Users\USER\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-98db4117867f1dab9d23f7a78dd89654ee6713b4.jar" />
+    </item>
+    <item
+        jar="C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.4.1\b130bcfb5a9c410c3cbd2e0adec9437e69a39e2c\jackson-core-2.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b130bcfb5a9c410c3cbd2e0adec9437e69a39e2c">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\jackson-core-2.4.1-bdaad28e54cf07c2f18256d195091f1e9a76cb1d.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\tablet\react-native-vector-icons\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1479da83e17017f8286bfcfbb3359be05f39326d">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\classes-5460b9f83d5915f3fa33b6de55c30d7ebd7e0364.jar" />
+    </item>
+    <item
+        jar="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.23.1\jars\libs\infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="60e1da2c40a60ff372052eba4278e0cb252a3f3a">
+        <dex dex="C:\xampp\htdocs\odoo-tablet\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5-23b295afdf450478e78fb1f80e9670f79aba7fa2.jar" />
+    </item>
+
+</items>

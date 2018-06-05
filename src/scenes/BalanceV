@@ -1,0 +1,280 @@
+import React, {
+  Component,
+  PropTypes,
+  View,
+  Text,
+  TextInput,
+  Image,
+  ListView,
+  ScrollView,
+  TouchableOpacity,
+  ProgressBarAndroid,
+} from 'react-native';
+
+import {
+  Avatar,
+  Card,
+  Icon,
+  Button,
+  Divider,
+  COLOR,
+  TYPO
+} from 'react-native-material-design';
+
+const DropDown = require('react-native-dropdown');
+const {
+  Select,
+  Option,
+  OptionList,
+  updatePosition
+} = DropDown;
+
+var numeral = require('numeral');
+import {
+    createCardToken
+    } from '../utils/api_stripe.js';
+
+import {
+  fetchProducts
+} from '../utils/realm_db.js';
+
+export default class Balance extends Component {
+
+  static contextTypes = {
+    navigator: PropTypes.object.isRequired,
+    theme: React.PropTypes.string.isRequired
+  };// contextTypes
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      loaded: false,
+      founds: false,
+      CardNumber: '',
+      ExpiryMonth: '',
+      ExpiryYear: '',
+      CVV2: ''
+
+
+    }// this.state
+  }// constructor
+
+//  _changeFounds(founds) {
+//    this.setState({
+//      ...this.state,
+//      founds : founds
+//    });
+//  }
+
+
+//  _changeCard(numb) {
+//    this.setState({
+//      ...this.state,
+//      founds : numb
+//    });
+//  }
+
+
+
+//async componentDidMount() {
+    // this.refs.SearchByNameTextInput.setNativeProps({text: barcode.data});
+
+//    updatePosition(this.refs['ChooseBalance']);
+//    updatePosition(this.refs['Money']);
+//    updatePosition(this.refs['ChooseCard']);
+//    updatePosition(this.refs['Card']);
+//    await createCardToken('4242 4242 4242 4242','12','2017','123').then(function(response){
+//        console.warn(JSON.stringify(response));
+//    });
+//  }// componentDidMount
+
+
+//_getOptionList() {
+//    return this.refs['Money'];
+//  }
+//  _getOptionListCard() {
+//    return this.refs['Card'];
+//  }
+
+
+  renderLoadingView() {
+    const { theme } = this.context;
+    const themeColor = COLOR[`${theme}500`].color;
+
+    return (
+      <View style={styles.container}>
+        <ProgressBarAndroid styleAttr="Large" color={themeColor} />
+      </View>
+    );// return
+  }
+
+render () {
+    const { theme } = this.context;
+    const themeColor = COLOR[`${theme}500`].color;
+
+
+
+    return (
+      <View style={styles.container}>
+            <View style={styles.line}>
+              <Text style={styles.line1}>ADD Founds</Text>
+            </View>
+
+            <View style={{ flex: 1, padding: 20}}>
+                         <Select
+                           style={{backgroundColor: 'white'}}
+                           width={250}
+                           ref="ChooseBalance"
+                           optionListRef={this._getOptionList.bind(this)}
+                           onSelect={this._changeFounds.bind(this)}>
+                            <Option>$ 5</Option>
+                            <Option>$ 10</Option>
+                            <Option>$ 15</Option>
+                            <Option>$ 20</Option>
+                         </Select>
+                        <OptionList ref="Money"/>
+            </View>
+            //         <View style={styles.line}>
+         <Text style={styles.line1}>Payment Source</Text>
+
+        //         <View style={{ flex: 1, padding: 20}}>
+        //                              <Select
+        //                                width={250}
+        //                                ref="ChooseCard"
+        //                                style={{backgroundColor: 'white'}}
+        //                                optionListRef={this._getOptionListCard.bind(this)}
+        //                                onSelect={this._changeCard.bind(this)}>
+        //                                 <Option>xxxx xxxx xxxx 1234</Option>
+        //                              </Select>
+        //                            <OptionList ref="Card"/>
+        //         </View>
+        //        </View>
+
+             <TextInput
+                 editable = {true}
+                 placeholder = "Card Number"
+                 style={styles.inputStyle}
+                 secureTextEntry={true}
+                  onChangeText={login => this.setState({CardNumber})}
+                  value={this.state.CardNumber}
+              />
+             <TextInput
+                editable = {true}
+                style={styles.inputStyle}
+                placeholder = "Expiry Month"
+                 onChangeText={login => this.setState({ExpiryMonth})}
+                 value={this.state.ExpiryMonth}
+             />
+             <TextInput
+                editable = {true}
+                style={styles.inputStyle}
+                placeholder = "Expiry Year"
+                onChangeText={login => this.setState({ExpiryYear})}
+                value={this.state.ExpiryYear}
+
+             />
+             <TextInput
+                editable = {true}
+                style={styles.inputStyle}
+                placeholder = "CVV2/CVC2"
+                 onChangeText={login => this.setState({CVV2})}
+                 value={this.state.CVV2}
+             />
+             <View style={{flexDirection:"row",justifyContent: 'center',alignItems: 'center'}}>
+                 <Button text="Cancel"
+                      raised={true}
+                      theme='dark'
+                      styles={{marginBottom:30}}
+                      overrides={{
+                                 textColor: '#ffffff',
+                                 backgroundColor: themeColor
+                       }}
+                       onPress={ () => {
+                                   navigator.forward('Payments',null,{added: false,});
+                                 }}
+                 />
+                 <Button text="Add"
+                      raised={true}
+                      theme='dark'
+                      styles={{marginBottom:30}}
+                      overrides={{
+                                 textColor: '#ffffff',
+                                 backgroundColor: themeColor
+                       }}
+                       onPress={
+                            () => {
+                                   navigator.forward('Payments',null,{added: true,fonds: this.state.founds});
+                                    }}
+                 />
+             </View>
+
+    );
+  }// render
+}// ProductListView
+
+
+
+
+
+
+
+
+const styles = {
+    container: {
+      flex: 1,
+      flexDirection: 'column',
+      flexWrap: 'wrap',
+      // alignItems: 'center',
+      justifyContent: 'space-between',
+      backgroundColor: '#fff',
+      backgroundColor: COLOR.googleGrey100.color,
+      padding: 30
+    },
+   line1:{
+      fontWeight: 'bold',
+      fontSize: 20,
+      lineHeight: 35
+      },
+   line:{
+      flexWrap:'wrap',
+      justifyContent:'center',
+      alignItems:'center',
+    },
+
+    inputStyle:{
+    margin:5,
+    borderWidth: 1,
+    borderColor: '#0f0f0f',
+    }
+
+
+};
+
+
+martins_vending@example.com
+martins_vending
+
+
+if(CardNumber.length>16 || CardNumber.length<16 ){
+             console.warn('Hello CardNumber');
+         }
+ if(ExpiryMonth && ExpiryMonth>12){
+                 console.warn('Hello ExpiryMonth');
+         }
+        if(ExpiryYear){
+         var x=new Date().getFullYear();
+            if(ExpiryYear<x || ExpiryYear>x+4){
+                console.warn('Hello ExpiryYear');
+            }
+         }
+         if(CVV2 && CVV2.toString().length!=3){
+          console.warn('Hello CVV2');
+       }
+
+
+
+
+await createCardToken(CardNumber,ExpiryMonth,ExpiryYear,CVV2).then(function(response){
+                console.warn(JSON.stringify(response));
+         });
+

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tablet"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.tablet.MainActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+
+        <!-- Auth0 Lock -->
+        <activity
+            android:name="com.auth0.lock.LockActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="user"
+            android:theme="@style/Lock.Theme" >
+        </activity>
+        <!-- Auth0 Lock End -->
+        <!-- Auth0 Lock Embedded WebView -->
+        <activity
+            android:name="com.auth0.identity.web.WebViewActivity"
+            android:theme="@style/Lock.Theme" >
+        </activity>
+        <!-- Auth0 Lock Embedded WebView End -->
+        <!-- Auth0 Lock Passwordless -->
+        <activity
+            android:name="com.auth0.lock.passwordless.LockPasswordlessActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="user"
+            android:theme="@style/Lock.Theme" >
+        </activity>
+        <activity
+            android:name="com.auth0.lock.passwordless.CountryCodeActivity"
+            android:theme="@style/Lock.Theme" >
+        </activity>
+        <!-- Auth0 Lock Passwordless End -->
+    </application>
+
+</manifest>

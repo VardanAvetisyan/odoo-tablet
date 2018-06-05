@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/xampp/htdocs/odoo-tablet/node_modules/react-native-lock/android/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="com_auth0_android_react_native_lock_no_activity">Cannot find Android Activity to show Lock</string>
+</resources>
